@@ -8,6 +8,18 @@ description: Wireworld 1
 
 <script src="sketch.js"></script>
 
+<script>
+  var myp5_2 = new p5(sketch, 'sketch2')
+  myp5_2.init([[0, 0, 0, 0, 0, 0, 0, 0], 
+               [0, 0, 1, 3, 2, 1, 0, 0], 
+               [0, 1, 0, 0, 0, 0, 1, 0], 
+               [0, 1, 0, 0, 0, 0, 1, 0], 
+               [0, 1, 0, 0, 0, 0, 1, 0], 
+               [0, 1, 0, 0, 0, 0, 1, 0], 
+               [0, 0, 1, 1, 1, 1, 0, 0], 
+               [0, 0, 0, 0, 0, 0, 0, 0]] ) 
+<script>
+
 
 first sketch: 
 
